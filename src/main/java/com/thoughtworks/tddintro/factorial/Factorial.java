@@ -5,11 +5,8 @@ public class Factorial {
         if(i == 0 || i == 1) {
             return 1;
         }
-        else if(i == 2) {
-            return 2;
-        }
         else {
-            return -1;
+            return i * compute(i - 1);
         }
     }
 }
